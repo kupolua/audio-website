@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://kupolua.github.io/audio-website//sitemap.xml
