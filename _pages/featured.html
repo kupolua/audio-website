@@ -1,0 +1,22 @@
+---
+layout: pageminimal
+permalink: /featured/
+title: Список
+description: "список отсортированный по дате"
+---
+
+<ul class="post-list">
+
+{% for post in site.posts %}
+  {% if post.featured %}
+  <li>
+    <article>
+      <i class="fa fa-star-half-empty"></i>
+      <a href="{{ site.url }}{{ post.url }}">
+        {{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time></span>
+      </a>
+    </article>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
