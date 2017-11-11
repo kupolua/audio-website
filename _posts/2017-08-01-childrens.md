@@ -11,54 +11,66 @@ comments: false
 mathjax:
 ---
 
-## Для детей
+Здесь представлены несколько миниатюр из книги «Божья коровка — пятнашка». Эти миниатюрные рассказы подобны притчам, которые хорошо иллюстрируют человеческий характер с его греховной испорченностью, а так же библейские истины, лежащие в основе нравственности и взаимоотношений между людьми.	
+
 <br/>
-*Придисловие*
+<br/>
+**Предисловие**
 <audio controls>
     <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/for_kids/intro.mp3" type="audio/mpeg"/>
 </audio>
+<br/>
 
-*Божья коровка Пятнашка*
+**Божья коровка Пятнашка**
 <audio controls>
     <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/for_kids/Bogiya_Korovka_pyatnashka.mp3" type="audio/mpeg"/>
 </audio>
+<br/>
 
-*Глидум фря*
+**Глидум фря**
 <audio controls>
     <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/for_kids/Glindum_frya.mp3" type="audio/mpeg"/>
 </audio>
+<br/>
 
-*Гриб трутовик*
+**Гриб трутовик**
 <audio controls>
     <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/for_kids/Grib_Trutovik.mp3" type="audio/mpeg"/>
 </audio>
+<br/>
 
-*Кругодыры*
+**Кругодыры**
 <audio controls>
     <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/for_kids/Krugodiri.mp3" type="audio/mpeg"/>
 </audio>
+<br/>
 
-*Обиженный одуванчик*
+**Обиженный одуванчик**
 <audio controls>
     <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/for_kids/Obizheniy_oduvanchik.mp3" type="audio/mpeg"/>
 </audio>
+<br/>
 
-*Облепиха*
+**Облепиха**
 <audio controls>
     <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/for_kids/Oblepiha.mp3" type="audio/mpeg"/>
 </audio>
+<br/>
 
-*Урожай жары*
+**Урожай жары**
 <audio controls>
     <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/for_kids/Urojai_Jari.mp3" type="audio/mpeg"/>
 </audio>
+<br/>
 
-*Глинянный ляп*
+**Глинянный ляп**
 <audio controls>
     <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/for_kids/glinyaniy_lyap.mp3" type="audio/mpeg"/>
 </audio>
+<br/>
 
-*Поезд для отстающих*
+**Поезд для отстающих**
 <audio controls>
     <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/for_kids/poezd_dlya_otstayushix.mp3" type="audio/mpeg"/>
 </audio>
+<br/>
