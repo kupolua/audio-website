@@ -266,7 +266,7 @@ pre {
 }
 
 .super {
-  font-size: 60px;
+  font-size: 32px;
   font-weight: bold;
   line-height: 1;
   text-transform: uppercase;
@@ -543,10 +543,10 @@ html {
 }
 /* - Blog title and description - */
 .blog-title {
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 66px !important;
+  line-height: 46px;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 22px;
 }
 
 .blog-title span {
@@ -557,7 +557,7 @@ html {
   text-transform: none;
   padding-top: 12px;
   margin-top: 12px;
-  font-size: 18px;
+  font-size: 22px !important;
 }
 
 #main {
@@ -792,8 +792,8 @@ html {
   display: block;
   position: absolute;
   height: 1px;
-  width: 80px;
-  left: 50%;
+  width: 40%;
+  left: 33%;
   margin-left: -40px;
 }
 
