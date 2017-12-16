@@ -274,7 +274,7 @@ tags: [tags]
 		</header>
 
 		<div class="post-body bordered-bottom">
-			<p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
+			<p>{{ post.content | first | strip_html | truncatewords:100 }}&hellip;</p>
 			<div class="text-center">
 			{% if post.description %}
 				<a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
@@ -350,21 +350,21 @@ tags: [tags]
 			</div>
 		</header>
 
-		<div class="post-body bordered-bottom">
-			{% assign excerptsize = post.excerpt | number_of_words %} 
-			
+		<div class="post-body">
+			{% assign excerptsize = post.excerpt | number_of_words %}
+
 		{% if excerptsize <= 100 and excerptsize >= 50 %}
 			<p class="lead">{{ post.excerpt | strip_html }}&hellip;</p>
 		{% else %}
-			<p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
+			<p>{{ post.content | split:"<!-- more -->" | first | strip_html }}&hellip;</p>
 		{% endif %}
 			<div class="text-center">
 			{% if post.description %}
-				<a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
+				<a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-link btn-large">
 					<i class="fa fa-link"></i> читаь далее...
 				</a>
 			{% else %}
-				<a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Читать далее о {{ post.title }}" class="more-link btn btn-danger btn-large">
+				<a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Читать далее о {{ post.title }}" class="more-link btn btn-link btn-large">
 					<i class="fa fa-link"></i> читать далее...
 				</a>
 			{% endif %}
