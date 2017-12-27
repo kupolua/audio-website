@@ -4,8 +4,8 @@ title: "Джонатан Эдвардс. Биография"       # Title of th
 description:  (Джонатан Эдвардс)     # Description of the post, used for Facebook Opengraph & Twitter
 headline: Биография      # Will appear in bold letters on top of the post
 modified: 2017-12-26                 # Date
-category: биография
-tags: [биография, Джонатан Эвардс]
+category: биографии
+tags: [биография, Джонатан Эдвардс]
 image: 
 comments: false
 mathjax:
