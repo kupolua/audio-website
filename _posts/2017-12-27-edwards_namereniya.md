@@ -19,7 +19,7 @@ mathjax:
 
 **Предисловие**
 <audio controls>
-    <source src="https://s3.console.aws.amazon.com/s3/object/audiobooks.deepidea.cloud/jonathan_edwards/01_predislovie_soveti_je.mp3" type="audio/mpeg"/>
+    <source src="https://s3.amazonaws.com/audiobooks.deepidea.cloud/jonathan_edwards/01_predislovie_soveti_je.mp3" type="audio/mpeg"/>
 </audio>
 <br/>
 
